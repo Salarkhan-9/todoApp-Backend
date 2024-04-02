@@ -3,7 +3,7 @@
 
  Added Comments to understand 
  
- # installation
+ ### Installation
  ```
  npm i 
  npm run start
