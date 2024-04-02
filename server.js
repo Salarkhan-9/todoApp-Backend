@@ -1,10 +1,11 @@
 // Import required modules
+require('dotenv').config()
 const express = require('express');
 const mongoose = require('mongoose');
 
 // Create Express app
 const app = express();
-const PORT = process.env.PORT || 3000; // Set the port for the server
+const PORT = process.env.PORT ; // Set the port for the server
 
 // Middleware to parse JSON bodies
 app.use(express.json());
