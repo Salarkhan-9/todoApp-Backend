@@ -53,7 +53,7 @@ app.put('/todos/:id', async (req, res) => {
 app.delete('/todos/:id', async (req, res) => {
   try {
     await Todo.findByIdAndDelete(req.params.id); // Find and delete the specified Todo object
-    res.status(204).end(); // Respond with status 204 (No Content) to indicate success
+    res.status(204).end(); // Respond with status 204 
   } catch (err) {
     res.status(400).json({ error: err.message }); // Handle errors
   }
