@@ -3,3 +3,7 @@
 
  Added Comments to understand 
  
+ ```
+ npm i 
+ npm run start
+ ```
